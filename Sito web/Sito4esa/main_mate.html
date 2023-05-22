@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Matematica</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script>
+  function toggleExpand(paragrafoId) {
+      var paragrafo = document.getElementById(paragrafoId);
+      paragrafo.classList.toggle("expand");
+    }
+  </script>
+</head>
+<body>
+  <navbarside > 
+    <a href="https://www.curiepinerolo.edu.it/" target="_blank"> <img class="logocurie" src="img/Logo_curie.png" alt="Logo curie"  </a>
+  <ul> 
+    <br>
+    <li>  <a  href="fisica.html">Fisica  </a> </li> 
+    <br>
+    <li>  <a  href="chi_siamo.html">Chi siamo</a> </li>
+  </ul>
+  </navbarside>
+
+  <div class="contenitore-sezione">
+    <div class="logo">
+      <img src="img/logo2.png" alt="Logo">
+    </div>
+    <div class="colonna"></div>
+  </div>
+  
+  <div class="paragrafo" id="paragrafo" onclick="toggleExpand('paragrafo')">
+    <h2>Titolo di Paragrafo</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla faucibus sem eget libero consectetur, vitae tincidunt felis finibus. Fusce finibus est non posuere efficitur. Suspendisse potenti. Suspendisse eu velit vel velit semper fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis nec neque elit. Donec rutrum lacinia purus id hendrerit. Mauris a tortor in justo fringilla cursus. Suspendisse porttitor nunc vel tellus rhoncus fringilla. Quisque a urna vel lectus tempor bibendum. Duis ac vestibulum leo. Nulla consectetur massa sed lorem vestibulum volutpat. Sed cursus, nulla non malesuada tincidunt, ex elit blandit mi, vitae consequat sapien metus non metus.</p>
+  </div>
+  <div class="paragrafo" id="paragrafo2" onclick="toggleExpand('paragrafo2')">
+    <h2>Titolo di Paragrafo</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla faucibus sem eget libero consectetur, vitae tincidunt felis finibus. Fusce finibus est non posuere efficitur. Suspendisse potenti. Suspendisse eu velit vel velit semper fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis nec neque elit. Donec rutrum lacinia purus id hendrerit. Mauris a tortor in justo fringilla cursus. Suspendisse porttitor nunc vel tellus rhoncus fringilla. Quisque a urna vel lectus tempor bibendum. Duis ac vestibulum leo. Nulla consectetur massa sed lorem vestibulum volutpat. Sed cursus, nulla non malesuada tincidunt, ex elit blandit mi, vitae consequat sapien metus non metus.</p>
+  </div>
+</body>
+</html>
