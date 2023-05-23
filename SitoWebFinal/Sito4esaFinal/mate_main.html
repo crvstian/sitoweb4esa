@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Matematica</title>
+  <link rel="stylesheet" type="text/css" href="stile.css">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <script>
+  function toggleExpand(paragrafoId) {
+      var paragrafo = document.getElementById(paragrafoId);
+      paragrafo.classList.toggle("expand");
+    }
+  </script>
+
+</head>
+
+<body>
+
+  <navbarsidedesktop > 
+    <a href="https://www.curiepinerolo.edu.it/" target="_blank"> <img class="logocurie" src="img/Logo_curie.png" alt="Logo curie"  </a>
+  <ul> 
+    <br>
+    <li>  <a  href="fisica.html">Fisica  </a> </li> 
+    <br>
+    <br>
+    <li>  <a  href="privacy.html"> Privacy </a> </li> 
+    <br>
+    <br>
+    <li>  <a  href="chi_siamo.html">Chi siamo</a> </li>
+  </ul>
+  </navbarsidedesktop>
+  
+  <div class="contenitore-sezione">
+    <div class="logo">
+      <a href="mate_main.html"><img src="img/scritte_lunghe/mates.png" alt="Logo"></a> 
+    </div>
+    <navbarmobile > 
+        <a  href="fisica.html">Fisica  </a> &nbsp &nbsp 
+        <a  href="privacy.html"> Privacy </a> &nbsp &nbsp 
+        <a  href="chi_siamo.html"> Chi siamo</a> 
+      </navbarmobile >
+  </div>
+
+  <br><br>
+  <div class="logo">
+    <img src="img/scritte_lunghe/matematica.png">
+  </div>
+  <div class="paragrafo" id="paragrafo1" onclick="toggleExpand('paragrafo1')">
+    <h2> <img class = "titolo_paragrafo"src="img/loghi_piccoli/probabilita.png" alt="Logo" > &nbsp Probabilità  </h2>
+    <p class="title" >La probabilità in matematica è una misura numerica dell'incertezza associata a un evento. Esprime la possibilità che un evento si verifichi, rappresentata da un numero compreso tra 0 e 1. Una probabilità di 0 indica che l'evento è impossibile, mentre una probabilità di 1 indica che l'evento è certo. La probabilità viene calcolata considerando il rapporto tra il numero di risultati favorevoli all'evento e il numero totale di risultati possibili. La teoria delle probabilità fornisce un quadro formale per comprendere l'incertezza e prendere decisioni informate basate su questi calcoli.</p>
+  </div>
+
+  <div class="paragrafo" id="paragrafo2" onclick="toggleExpand('paragrafo2')">
+    <h2> <img class = "titolo_paragrafo"src="img/loghi_piccoli/combinatorio.png" alt="Logo" > &nbsp Calcolo Combinatorio </h2>
+    <p class="title" >Il calcolo combinatorio in matematica si occupa di contare il numero di modi in cui è possibile combinare gli elementi di un insieme. Utilizza principi come la regola del prodotto e la regola della somma per calcolare le permutazioni (arrangiamenti), le combinazioni e i coefficienti binomiali. Il calcolo combinatorio è utile in diverse aree, come la teoria dei giochi, la statistica, la teoria dei grafi e l'algoritmo. Attraverso questi calcoli, possiamo determinare il numero esatto o approssimativo delle possibilità in situazioni di scelta e organizzazione di oggetti o eventi.</p>
+  </div>
+  
+  <div class="paragrafo" id="paragrafo3" onclick="toggleExpand('paragrafo3')">
+    <h2> <img class = "titolo_paragrafo"src="img/loghi_piccoli/analitica.png" alt="Logo" > &nbsp Geometria Analitica </h2>
+    <p class="title" >La geometria analitica è un ramo della matematica che combina gli strumenti dell'algebra e della geometria per studiare le figure geometriche utilizzando il sistema di coordinate. Tramite l'assegnazione di coordinate ai punti nello spazio, si possono descrivere linee, curve e figure geometriche con equazioni algebriche. La geometria analitica permette di calcolare distanze, angoli e altre proprietà geometriche utilizzando formule e metodi algebrici. È ampiamente utilizzata in fisica, ingegneria e altre discipline scientifiche per risolvere problemi geometrici in modo preciso e efficiente.</p>
+  </div>
+
+  <div class="paragrafo" id="paragrafo4" onclick="toggleExpand('paragrafo4')">
+    <h2> <img class = "titolo_paragrafo"src="img/loghi_piccoli/gioniometriche.png" alt="Logo" > &nbsp Equazioni Goniometriche </h2>
+    <p class="title" >Le equazioni goniometriche sono equazioni che coinvolgono funzioni goniometriche come seno, coseno e tangente. Queste equazioni cercano di determinare i valori delle variabili angolari che soddisfano l'equazione. Le soluzioni possono essere espresse in termini di valori specifici o come insiemi di valori che soddisfano l'equazione. Le equazioni goniometriche sono ampiamente utilizzate per risolvere problemi che coinvolgono fenomeni periodici, come onde, oscillazioni e movimenti circolari. La loro comprensione è essenziale per la modellazione e l'analisi di tali fenomeni nella matematica e nelle scienze applicate.</p>
+  </div>
+  
+  <div class="fondo">
+   <p class="fontibasso">Fonti<p>
+   <p class="testofonti">Wikipedia  Google  W3School  OpenAI</p>
+  </div>
+</body>
+</html>

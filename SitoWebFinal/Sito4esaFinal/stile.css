@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@800&display=swap');
+
+@media screen and (orientation: landscape) {
+    @import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@800&display=swap');
+
+  navbarsidedesktop {
+    position: fixed;
+    right: 0;
+    background-color: #faedcd ;
+    height: 100%;
+    font-family: 'Unbounded', cursive;
+    font-size: 20px;
+    width: 10% + 20px;
+    min-width: 125px;
+    text-align: justify;
+    max-width: fit-content;
+    border-bottom-left-radius: 40px;
+    border-top-left-radius: 40px;
+    overflow: hidden;
+  }
+
+  navbarmobile {
+    position: fixed;
+    right: 0;
+    background-color: #faedcd ;
+    font-family: 'Unbounded', cursive;
+    font-size: 18px;
+    min-width: 120px;
+    text-align: justify;
+    max-width: fit-content;
+    border-bottom-left-radius: 40px;
+    border-top-left-radius: 40px;
+    overflow: hidden;
+    visibility: collapse;
+  }
+
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .logo img {
+    max-width: 30%; 
+    padding-left: 2%;
+  }
+  .contenitore-sezione {
+    background-image: url("img/background_logo.png") ;
+    
+   }
+
+  p {
+    max-width: 75%; 
+  } 
+
+  ul {
+    padding-top: 5%;
+  }
+
+  .logocurie { 
+    padding-left: 13%;
+    padding-top: 13%;
+    width: 60%;
+  }  
+
+  a { 
+    color: #5a4430 ;
+  }
+
+  li :hover {
+    background-color: #d4a373aa;
+    border-radius: 10px;
+    padding: 3%;
+  }
+
+  .paragrafo {
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    max-height: 180px;
+    cursor: pointer;
+    padding-left: 2%;
+  }
+
+  .paragrafo :hover{
+    background-color: #d4a37335;
+    border-radius: 30px;
+  }
+
+  .paragrafo.expand {
+    max-height: 1000px;
+  }
+
+  h2{ 
+    width: fit-content ;
+    font-size: 30px;
+    position: relative;
+    padding: 1%;
+    font-family: 'Unbounded', cursive;
+    overflow: hidden;
+    max-width: 70%;
+  }
+
+  .paragrafo img { 
+    height: 100px ;
+    position:relative;
+    top: 4px;
+    left: 4px;
+  }
+
+  .paragrafo p { 
+    padding: 1%;
+  }
+
+  div { 
+    border-bottom-left-radius: 40px ;
+    border-bottom-right-radius: 40px ;
+  }
+
+  .title {
+    font-size: x-large;
+  }
+
+  .fontibasso{
+    font-size: small;
+    font-family: 'Unbounded', cursive;
+  }
+
+  .testofonti{
+    font-size: x-small;
+  }
+
+  .fondoabs{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+}
+
+@media screen and (orientation: portrait) {
+
+  navbarsidedesktop {
+    position: fixed;
+    right: 0;
+    background-color: #faedcd ;
+    height: 100%;
+    font-family: 'Unbounded', cursive;
+    font-size: 18px;
+    width: 10%;
+    min-width: 120px;
+    text-align: justify;
+    max-width: fit-content;
+    border-bottom-left-radius: 40px;
+    border-top-left-radius: 40px;
+    overflow: hidden;
+    visibility: collapse;
+  }
+
+  navbarmobile {
+    font-family: 'Unbounded', cursive;
+    font-size: 17px;
+    text-align: center;
+    padding-left: 33%;
+    box-sizing: border-box;
+  }
+
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .logo img {
+    max-width: 30%; 
+    padding-left: 2%;
+    width: fit-content;
+  }
+
+  .contenitore-sezione {
+    background-image: url("img/background_logo.png");
+   }
+
+  
+  .sezione-chi-siamo {
+    font-family: 'Unbounded', cursive;
+  }
+
+  p {
+    max-width: 75%; 
+  } 
+
+  ul {
+    padding-right: 3%;
+    padding-top: 5%;
+  }
+
+  .logocurie { 
+    padding-left: 13%;
+    padding-top: 13%;
+    width: 60%;
+  }  
+
+  a { 
+    color: #5a4430 ;
+  }
+   a :hover { 
+    background-color: #d4a373aa;
+  }
+
+  .paragrafo {
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    max-height: 180px;
+    cursor: pointer;
+    padding-left: 2%;
+  }
+
+
+  .paragrafo.expand {
+    max-height: 1000px;
+  }
+
+  h2{ 
+    width: fit-content ;
+    font-size: 30px;
+    position: relative;
+    padding: 1%;
+    font-family: 'Unbounded', cursive;
+    overflow: hidden;
+    max-width: 70%;
+  }
+
+  .paragrafo img { 
+    height: 100px ;
+    position:relative;
+    top: 4px;
+    left: 4px;
+  }
+
+  .paragrafo p { 
+    padding: 1%;
+  }
+
+  div { 
+    border-bottom-left-radius: 40px ;
+    border-bottom-right-radius: 40px ;
+  }
+
+  .fontibasso{
+    font-size: small;
+    font-family: 'Unbounded', cursive;
+  }
+
+  .testofonti{
+    font-size: x-small;
+  }
+
+  .fondoabs{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+}
+

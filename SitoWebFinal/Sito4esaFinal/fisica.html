@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fisica</title>
+  <link rel="stylesheet" type="text/css" href="stile.css">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <script>
+  function toggleExpand(paragrafoId) {
+      var paragrafo = document.getElementById(paragrafoId);
+      paragrafo.classList.toggle("expand");
+    }
+  </script>
+
+</head>
+
+<body>
+
+  <navbarsidedesktop > 
+    <a href="https://www.curiepinerolo.edu.it/" target="_blank"> <img class="logocurie" src="img/Logo_curie.png" alt="Logo curie"  </a>
+  <ul> 
+    <br>
+    <li>  <a  href="mate_main.html">Matematica </a> </li> 
+    <br>
+    <br>
+    <li>  <a  href="privacy.html"> Privacy </a> </li> 
+    <br>
+    <br>
+    <li>  <a  href="chi_siamo.html">Chi siamo</a> </li>
+  </ul>
+  </navbarsidedesktop>
+  
+  <div class="contenitore-sezione">
+    <div class="logo">
+      <a href="mate_main.html"><img src="img/scritte_lunghe/mates.png" alt="Logo"></a> 
+    </div>
+    <navbarmobile > 
+        <a  href="mate_main.html">Matematica  </a> &nbsp &nbsp 
+        <a  href="privacy.html"> Privacy </a> &nbsp &nbsp 
+        <a  href="chi_siamo.html"> Chi siamo</a> 
+      </navbarmobile >
+  </div>
+   
+  <div class="logo">
+    <img src="img/scritte_lunghe/fisica.png" style="padding-top: 5%;">
+    
+  </div>
+
+  <br><br>
+  
+  <div class="paragrafo" id="paragrafo1" onclick="toggleExpand('paragrafo1')">
+    <h2> <img class = "titolo_paragrafo"src="img/loghi_piccoli/riflessione.png" alt="Logo" > &nbsp La Riflessione e Rifrazione  </h2>
+    <p class="title" >La riflessione e la rifrazione sono due fenomeni fondamentali nell'ottica e nella fisica delle onde. La riflessione si verifica quando un'onda colpisce una superficie e viene deviata, rimbalzando indietro. L'angolo di incidenza è uguale all'angolo di riflessione rispetto alla normale alla superficie. La rifrazione avviene quando un'onda attraversa una superficie di separazione tra due mezzi con diverse proprietà di propagazione. L'onda cambia direzione e velocità mentre passa da un mezzo all'altro, e l'angolo di incidenza è diverso dall'angolo di rifrazione rispetto alla normale. Questi fenomeni sono alla base di molti aspetti della luce e del suono nel nostro ambiente quotidiano.</p>
+  </div>
+
+  <div class="paragrafo" id="paragrafo2" onclick="toggleExpand('paragrafo2')">
+    <h2> <img class = "titolo_paragrafo"src="img/loghi_piccoli/coulomb.png" alt="Logo" > &nbsp La legge di Coulomb </h2>
+    <p class="title" >La legge di Coulomb è una legge fondamentale dell'elettrostatica che descrive la forza di attrazione o repulsione tra due cariche elettriche puntiformi. La legge afferma che la forza tra due cariche è direttamente proporzionale al prodotto delle loro cariche e inversamente proporzionale al quadrato della distanza tra di esse. La forza agisce lungo la linea che unisce le cariche e obbedisce al principio dell'azione e reazione. La legge di Coulomb è essenziale per comprendere l'interazione elettrostatica e le forze elettriche che agiscono nell'universo fisico.</p>
+  </div>
+
+  <div class="paragrafo" id="paragrafo3" onclick="toggleExpand('paragrafo3')">
+    <h2> <img class = "titolo_paragrafo"src="img/loghi_piccoli/suono.png" alt="Logo" > &nbsp Il Suono come onda </h2>
+    <p class="title" >Il suono è un'onda meccanica che si propaga attraverso un mezzo, come l'aria, l'acqua o i solidi. Si forma quando una sorgente vibra, creando delle compressioni e rarefazioni nell'aria. Queste variazioni di pressione si propagano come onde longitudinali, in cui le particelle del mezzo oscillano nella stessa direzione della propagazione dell'onda. Il suono può essere caratterizzato da parametri come frequenza, ampiezza e intensità, che determinano le sue caratteristiche, come il tono e il volume. Il suono è fondamentale per la comunicazione, la musica e la percezione dell'ambiente circostante.</p>
+  </div>
+
+  <div class="paragrafo" id="paragrafo4" onclick="toggleExpand('paragrafo4')">
+    <h2> <img class = "titolo_paragrafo"src="img/loghi_piccoli/ohm.png" alt="Logo" > &nbsp Le leggi di Ohm </h2>
+    <p class="title" >Le leggi di Ohm sono principi fondamentali dell'elettricità che descrivono la relazione tra corrente, tensione e resistenza in un circuito elettrico. La prima legge di Ohm afferma che la corrente che attraversa un conduttore è direttamente proporzionale alla tensione applicata e inversamente proporzionale alla resistenza del conduttore. La seconda legge di Ohm afferma che la tensione ai capi di un resistore è uguale al prodotto della corrente che lo attraversa per la sua resistenza. Queste leggi sono alla base della teoria e delle applicazioni degli circuiti elettrici e sono ampiamente utilizzate nell'ingegneria e nella tecnologia.</p>
+  </div>
+  
+  <div class="fondo">
+    <p class="fontibasso">Fonti<p>
+    <p class="testofonti">Wikipedia  Google  W3School  OpenAI</p>
+   </div>
+
+</body>
+</html>
