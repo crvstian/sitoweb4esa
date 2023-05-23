@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@800&display=swap');
+
+  navbarside {
+    position: fixed;
+    right: 0;
+    background-color: #faedcd ;
+    height: 100%;
+    font-family: 'Unbounded', cursive;
+    font-size: 18px;
+    width: 10%;
+    min-width: 120px;
+    text-align: justify;
+    max-width: fit-content;
+    border-bottom-left-radius: 40px;
+    border-top-left-radius: 40px;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .logo img {
+    max-width: 30%; 
+    height: auto;
+    padding-left: 0.2%;
+  }
+  .contenitore-sezione {
+    background: linear-gradient(90deg,#ccd5ae 20%  , #e9edc9 40%  , #faedcd 82% , #d4a373c9 );
+   }
+
+  
+  .sezione-chi-siamo {
+    font-family: 'Unbounded', cursive;
+  }
+
+  p {
+    max-width: 75%; 
+  } 
+
+  ul {
+    padding-right: 3%;
+    padding-top: 5%;
+  }
+
+  .logocurie { 
+    padding-left: 13%;
+    padding-top: 13%;
+    width: 60%;
+  }  
+
+  a { 
+    color: #5a4430 ;
+  }
+
+  li :hover {
+    background-color: #d4a373aa;
+    border-radius: 10px;
+    padding: 3%;
+  }
+
+  .paragrafo {
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    max-height: 180px;
+    cursor: pointer;
+    padding-left: 2%;
+  }
+
+  .paragrafo :hover{
+    background-color: #d4a37335;
+    border-radius: 30px;
+  }
+
+  .paragrafo.expand {
+    max-height: 1000px;
+  }
+
+  h2{ 
+    width: fit-content ;
+    font-size: 30px;
+    position: relative;
+    padding: 1%;
+    font-family: 'Unbounded', cursive;
+  }
+
+  .paragrafo img { 
+    height: 100px ;
+    position:relative;
+    top: 4px;
+    left: 4px;
+  }
+
+  .paragrafo p { 
+    padding: 1%;
+  }
+
+  div { 
+    border-bottom-left-radius: 40px ;
+    border-bottom-right-radius: 40px ;
+  }
